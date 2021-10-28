@@ -1,0 +1,280 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1100px;
+    margin: auto;
+}
+h1,h2,h3,h4,p{
+    margin: 0px;
+}
+.header{
+    display: inline-block;
+    width: 120rem;
+    height: 20rem;
+    margin: 0px 0px 0 0px;
+    background-color: black;
+    padding-bottom: 0px;
+}
+/* logo giua maan hinh */
+#mainlogo{
+    display: inline-block;
+    position: absolute;
+    left: 550px;
+    top:50px
+}
+#mainlogo img{
+width: 43rem;
+height: 11rem;
+left: 500px;
+
+}
+/* Menu cua trang */
+.menu{
+    background-color: silver;
+    margin-top: -7px; 
+    width: 120rem;
+    height: 53px;
+}
+
+.menu li {
+    color: black;
+    display: inline-block;
+    width: 105px;
+    height: 52px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: relative;
+    font-size: 17px;
+    margin-top: -1px;
+}
+.menu ul{
+    margin-top: 2px;
+    position: absolute;
+    list-style-type: none;
+    top: auto;
+}
+.mainmenu>ul>li>a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.mainmenu>ul>li>a:hover {
+    color: white;
+  }
+  .menu li:hover #character{
+    display: block;
+}
+.menu li:hover {
+    background-color: rgb(172, 170, 173);
+}
+/* Thanh tim kiem */
+.find{
+    float: right;
+    width: 220px;
+    height: 50px;
+    right: 10px;
+    position: relative;
+}
+.find input{
+    height: 33px;
+    position: absolute;
+    width: 200px;
+    top: 11px;    
+    background-color: aliceblue;
+    font-family: monospace;
+}
+
+span.glyphicon.glyphicon-search{
+        float: right;
+        right: 20px;
+        margin-top: 2.2px;
+        position: absolute; 
+        font-size: 20px; 
+        padding: 6px 5px 6px 5px;  
+        background-color: rgb(160, 153, 153);
+        top: 10px;
+}
+
+/* List cho Character */
+#character{
+    display: none;
+    margin-top: 3px;
+
+}
+
+#character ul{
+    margin-top: 53px;
+}
+#character li{
+    width: 180px;
+    float: left;
+    text-align: left;
+    background-color: rgba(255,255,255, 0.8);
+    padding-left:12px ;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 0px;
+  
+}
+#character li>a{
+    color: black;
+    text-decoration: none;
+}
+#character>li>a:hover {
+    color: white;
+}
+#character>li:hover {
+    background-color: rgb(179, 171, 171);
+}
+
+
+/* List cho About */
+#about{
+    display: none;
+    margin-top: 3px;
+}
+.menu li:hover #about{
+    display: block;
+}
+#about ul{
+    margin-top: 53px;
+}
+#about li{
+    width: 160px;
+    float: left;
+    text-align: left;
+    background-color: rgba(255,255,255, 0.8);
+    padding-left:24px ;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 0px;
+}
+#about li>a{
+    color: black;
+    text-decoration: none;
+}
+#about>li>a:hover {
+    color: white;
+  }
+#about>li:hover {
+    background-color: rgb(179, 171, 171);
+  }
+
+
+/* ============================================================================================= */
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#maincontent{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 20px;
+    padding: 80px 0px 80px 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(54, 52, 52, 0.2);
+    margin-bottom: 50px;
+}
+html{
+    background-color: rgba(128, 128, 128,0.1);
+}
+.introduce{
+    margin: 20px 0px 0px 0px;
+    width: 75rem;
+    position: absolute;
+    text-align: justify;
+    line-height: 30px;}
+.picture{
+    text-align: center;
+}
+.profile{
+    
+    position: relative;
+    float: right;
+    width: 320px;
+    border:2px solid rgba(83, 82, 82,0.2);
+    height: 900px;
+    margin-top: 55px   ;
+
+}
+.profile h3{
+    text-align: center;
+    padding: 11px 0px 11px 0px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background-color: rgb(161, 70, 70);
+    color: white;
+}
+.textpic1{
+    width: 150px;
+    line-height: 40px;
+    margin: 0px;
+    top: 715px;
+    position: absolute;
+
+}
+.textpic1 h4{
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+.textpic2 {
+    width: 150px;
+    text-align: justify;
+    left: 160px;
+    top: 720px;
+    position: absolute;
+}
+.textpic2 p{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#textpic2Text1{
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.ngoaihinh{
+    margin-top: 40px;
+    position: relative;
+    width: 75rem;
+    float: left;
+    top: 270px;
+    line-height: 30px; 
+    text-align: justify;
+}
+.tinhcach{
+    margin-top: 10px;
+
+    position: relative;
+    width: 75rem;
+    float: left;
+    top: 310px;
+    line-height: 30px; 
+    text-align: justify;
+    margin-bottom: 400px;
+
+}
+#tinhcach1{
+    width: 1100px;
+}
+#tinhcachhr{
+    width: 1100px;
+}
+hr {
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+    height:1px;
+    background-color:gray;
+}
